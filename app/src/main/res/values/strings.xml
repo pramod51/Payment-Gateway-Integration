@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Payment Geteway Intergation</string>
+    <string name="don_t_recive_the_otp_code">didn\'t recive OTP</string>
+</resources>

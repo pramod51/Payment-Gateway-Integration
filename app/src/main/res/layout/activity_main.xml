@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="#1A000000"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blanched_almond"
+            android:orientation="vertical">
+            <com.daimajia.slider.library.SliderLayout
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/slider" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mask"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/donate_for_mask"
+                android:layout_marginTop="5dp"
+                android:layout_width="200dp"
+                app:cornerRadius="20dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Donate For Mask"
+                android:textAllCaps="false"
+                android:background="#E600BCD4"/>
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sanitizer"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/donate_for_sanitizer"
+                android:layout_width="200dp"
+                app:cornerRadius="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Donate For Sanitizer"
+                android:textAllCaps="false"
+                android:background="#E600BCD4"/>
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gloves"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/donate_for_gloves"
+                android:layout_width="200dp"
+                android:layout_marginTop="5dp"
+                app:cornerRadius="20dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Donate For Gloves"
+                android:textAllCaps="false"
+                android:layout_marginBottom="40dp"
+                android:background="#E600BCD4"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
